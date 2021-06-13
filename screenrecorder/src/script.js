@@ -19,7 +19,8 @@ start.onclick = (e) => {
 
 stop.onclick = (e) => {
   mediaRecorder.stop();
-  stop.innerText = "Start";
+  start.innerText = "Start";
+  select.innerText = "Select Window";
 };
 async function getScreens() {
   const inputSources = await desktopCapturer.getSources({
