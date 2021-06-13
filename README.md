@@ -1,11 +1,12 @@
 # ScreenRecorder
-TO run application
+1.To run application
 <br>
 cd screenrecorder
 <br>
 npm start
 <br>
-To use as a desktop app
+<br>
+2.To use as a desktop app
 <br>
 npm run make
 <br>
